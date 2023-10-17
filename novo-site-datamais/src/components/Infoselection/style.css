@@ -1,0 +1,190 @@
+.hrdouble{
+    width:100%;
+    height: 1px;
+    margin: 10px 0px 5px 0px;
+    background-color: #000; 
+}
+
+.info_selection{
+    margin: 80px 0px;
+}
+
+.info_option{
+    margin: 10px 20px;
+    height: 65px;
+    color: #F05123;
+    font-family: Nunito Sans;
+    font-weight: bold;
+    font-size: 1.1vw;
+    width: 18% !important;
+    display:flex;
+    align-items: center;
+    /* linear-gradient(white, white) #F7931D #EE1D23*/
+    /* border-image: linear-gradient(180deg,#F7931D,#EE1D23 100%) 1 */
+    background-image:linear-gradient(white, white,#e1e1e1, #dadada),  radial-gradient(ellipse at top, #F7931D,#F7931D,#F7931D,#EE1D23);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    border-radius: 30px;
+    border: solid 3.7px transparent;
+    box-shadow: 1px 3px 1px #bacecd;
+    transition: 0.3s linear;
+}
+
+.info_option a{
+    text-decoration: none;
+    height: 65px;
+    color: #F05123;
+    font-family: Nunito Sans;
+    font-weight: bold;
+    font-size: 1.1vw;
+    width: 100% !important;
+    display:flex;
+    align-items: center;
+    transition: 0.3s linear;
+}
+.info_option a:hover {
+    color: #F05123;
+}
+.info_option:hover {
+    transform: scale(1.1,1.1);
+
+}
+.info_title{
+text-align: center;
+color: #F05123;
+font-family: Nunito Sans;
+font-weight: bold;
+font-size:60px;
+justify-content: center;
+}
+.info_sub_title{
+    text-align: center;
+    color: #404041;
+    font-family: Nunito Sans;
+    font-weight: bold;
+    font-size:40px;
+    margin-bottom: 50px;
+}
+.info_title_options{
+    text-align: center;
+    color: #404041;
+    font-family: Nunito Sans;
+    font-weight: bold;
+    font-size:30px;
+}
+.image_segments{
+    width:2.5vw;
+    margin-left: 0.8vw;
+    margin-right: 0.8vw;
+}
+.block_segmets{
+    display: flex;
+}
+.space_image_segmets{ 
+    width: 18% !important;
+    margin: 10px 20px;
+}
+@media only screen and (max-width: 1550px) and (min-width: 1000px) {
+    .info_option{
+        margin: 10px 20px;
+        font-size: 1.3vw;
+        width: 18% !important;
+       
+    }
+    .image_segments{
+        width:2.8vw;
+        margin-left: 0.8vw;
+        margin-right: 0.8vw;
+    }
+}
+@media only screen and (max-width: 999px) {
+    .info_option{
+        margin: 10px 20px;
+        font-size: 1.4vw;
+        width: 18% !important;
+       
+    }
+    .image_segments{
+        width:3.5vw;
+        margin-left: 1.2vw;
+        margin-right: 1.1vw;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .info_selection{ 
+        margin-top:20px;
+    }
+    .info_title{
+        font-size: 30px;
+        letter-spacing: 2px;
+    }
+    .info_sub_title{
+        font-size: 20px !important;
+        margin-bottom: 30px !important;
+        text-align: center;
+        letter-spacing: 1px;
+    }
+    .info_form{
+        border-bottom: 1px black solid ;
+        margin-bottom: 20px;
+        
+    }
+    .info_input{
+        background-color: #e0e0e0 !important;
+       
+    }
+    .info_input::-webkit-input-placeholder {
+        font-weight: bold !important;
+        color: black !important;
+        
+    }
+    .info_form_option{
+        font-weight: bold !important;
+        color:black;
+    }
+    .info_form_button{
+    margin: 30px auto 0px !important;
+    display: block !important;
+    width: 150px;
+    height: 50px;
+    color: #F05123;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: Nunito Sans;
+    background-image:linear-gradient(#fefefe,#eeeeee,#d0d0d0,#b6b4b4);
+    background-origin: border-box;
+ 
+    border-radius: 30px;
+    border: solid 0.5px transparent;
+    box-shadow: 1px 5px 1px #8f8d8e ;
+    transition: 0.3s linear
+ }
+ .info_solucao_button{
+    margin: 30px auto 25px !important;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 70px;
+    color: #F05123;
+    font-weight: bold;
+    font-size: 25px;
+    white-space: none;
+    font-family: Nunito Sans;
+    background-image:linear-gradient(#fefefe,#eeeeee,#d0d0d0,#b6b4b4);
+    background-origin: border-box;
+    border-radius: 30px;
+    border: solid 0.5px transparent;
+    box-shadow: 1px 5px 1px #8f8d8e ;
+    transition: 0.3s linear
+ } 
+ .info_solucao_button a{
+    text-decoration: none;
+    color: #F05123;
+ }
+#inputsegment{
+    appearance: revert;
+    font-weight: bold;
+}
+}

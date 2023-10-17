@@ -1,0 +1,12 @@
+.div-body-desc {
+  background-color: #f05123;
+}
+.title-body-desc {
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  font-size: 46px;
+  font-family: "Nunito Sans";
+  font-weight: bold;
+  color: #ffffff;
+}
